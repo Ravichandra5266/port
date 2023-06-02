@@ -23,6 +23,9 @@
   font-style: italic;
   font-weight: bolder;
   color: white;
+  padding-left: 20px;
+  font-family: lobster;
+  animation: zoomInOut 2s infinite;
 }
 @media screen and (min-width: 768px) {
   .nav-logo {

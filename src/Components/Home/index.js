@@ -28,6 +28,10 @@ const Home = () => {
       typed.destroy()
     }
   }, [])
+
+  const onclickScroll = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'})
+  }
   return (
     <div className="home-container">
       <Navbar />
@@ -113,7 +117,7 @@ const Home = () => {
             portfolio, and I look forward to hearing from you!
           </p>
           <Link className="link-btn-container" to="/projects">
-            <button type="button" className="link-btn">
+            <button type="button" className="link-btn" onClick={onclickScroll}>
               Navigate To Projects
             </button>
           </Link>

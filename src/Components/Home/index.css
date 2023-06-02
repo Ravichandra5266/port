@@ -69,6 +69,7 @@
   animation: zoomInOut 5s infinite;
   margin-bottom: 0px;
   font-size: 22px;
+  font-family: lobster;
 }
 @keyframes zoomInOut {
   0% {
@@ -123,6 +124,7 @@
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
+  margin: 5px;
 }
 @media screen and (min-width: 768px) {
   .home-description-container {
