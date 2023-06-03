@@ -224,6 +224,14 @@ const Projects = () => {
           Navigate Minor Projects
         </button>
       </Link>
+      <div className="note">
+        <h3>Note</h3>
+        <p>For All Mini Projects Use The Below User Credentials</p>
+        <span>
+          Username: rahul <br />
+          Password: rahul@2021
+        </span>
+      </div>
       <ContactUs />
     </div>
   )

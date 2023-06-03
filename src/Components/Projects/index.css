@@ -94,3 +94,32 @@
     #30d2be 100%
   );
 }
+h3 {
+  font-style: italic;
+  font-weight: bolder;
+}
+p {
+  font-style: italic;
+  font-weight: bolder;
+}
+span {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 500;
+}
+.note {
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .note {
+    width: 80%;
+  }
+}

@@ -1,6 +1,7 @@
 @keyframes zoomInOut {
   0% {
     transform: scale(1);
+    color: black;
   }
 
   50% {
@@ -10,6 +11,7 @@
 
   100% {
     transform: scale(1);
+    color: black;
   }
 }
 .home-container {
@@ -25,6 +27,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
 }
 @media screen and (min-width: 768px) {
   .home-content {
@@ -41,18 +44,18 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
 }
 @media screen and (min-width: 768px) {
   .content {
     border: 2px solid #4682b4;
     border-radius: 5px;
     padding: 15px;
-    background-image: linear-gradient(
-      to top,
-      #dad4ec 0%,
-      #dad4ec 1%,
-      #f3e7e9 100%
-    );
   }
 }
 .profile {
@@ -63,17 +66,20 @@
 }
 
 .profile-img {
-  width: 250px;
-  border: 1px solid;
+  width: 200px;
   border-radius: 150px;
   margin: 10px;
+  animation: zoomInOut 15s infinite;
 }
 .typed-title {
   height: 10px;
   font-style: italic;
   font-weight: bolder;
   text-align: center;
+  color: white;
+  margin-top: 25px;
 }
+
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -120,6 +126,10 @@
   margin: 5px;
   margin-top: 10px;
 }
+.navigate-icons {
+  font-size: 22px;
+  color: black;
+}
 
 .link-btn-container {
   display: flex;
@@ -142,6 +152,12 @@
   border: none;
   font-style: italic;
   cursor: pointer;
-
+  color: #ff4500;
+  width: 100%;
   font-weight: bold;
+}
+
+.link-btn:hover {
+  color: white;
+  background-color: #ff4500;
 }
