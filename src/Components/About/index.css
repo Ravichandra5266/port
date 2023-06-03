@@ -1,0 +1,43 @@
+.ab-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f0fff0;
+
+  margin-bottom: auto;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  margin-bottom: auto;
+}
+.about-title {
+  font-style: italic;
+  font-family: lobster;
+  animation: zoomInOut 2s infinite;
+}
+li {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-scroll-title {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  height: 10px;
+}

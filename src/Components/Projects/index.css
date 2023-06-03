@@ -65,9 +65,13 @@
 }
 
 .jobby-img {
-  width: 100%;
-
+  width: 80%;
+  transition: transform 0.3s ease;
   border-radius: 5px;
+}
+.jobby-img:hover {
+  transform: scale(1.2);
+  margin-top: 50px;
 }
 .minor-btn-container {
   text-decoration: none;

@@ -6,7 +6,7 @@ import './index.css'
 
 const ContactUs = () => (
   <div className="contact-container">
-    <h1 className="contact-title">Contact Us</h1>
+    <h1 className="contact-title">Contact Me </h1>
     <div className="contact-icons-container">
       <a href="https://www.linkedin.com/in/ravichandrakadavakuti">
         <BsLinkedin className="contact-icons" />

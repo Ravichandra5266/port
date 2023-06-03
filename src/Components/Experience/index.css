@@ -1,0 +1,38 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f0fff0;
+}
+
+.exp-con {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: auto;
+}
+.exp-img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .exp-con {
+    width: 50%;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .exp-con {
+    width: 30%;
+    margin-top: 15px;
+  }
+}
+
+.exp-title {
+  font-style: italic;
+  font-family: lobster;
+  animation: zoomInOut 2s infinite;
+}

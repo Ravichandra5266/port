@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div className="project">
       <Navbar />
-      <h1 className="major-project-title">Major Projects</h1>
+      <h1 className="major-project-title">Mini Projects</h1>
 
       <div className="projects">
         <a href="https://jobbykrcrjs.ccbp.tech" className="link">
@@ -77,13 +77,13 @@ const Projects = () => {
         <a href="https://mp02rjskrc.ccbp.tech" className="link">
           <div data-aos="zoom-in-up" className="project-container">
             <h1 className="project-title"> Insta Share</h1>
-            <div className="project-flex">
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685446435/Login_page_le7lfi.png"
-                alt="jobbyapp"
-                className="jobby-img"
-              />
-              {/* <ul className="project-list">
+            {/* <div className="project-flex"> */}
+            <img
+              src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685446435/Login_page_le7lfi.png"
+              alt="jobbyapp"
+              className="jobby-img"
+            />
+            {/* <ul className="project-list">
                 <li>
                   Implemented responsive Streaming Application like Instagram
                   Clone where users can log in and see a list of stories and
@@ -117,20 +117,20 @@ const Projects = () => {
                   users can access the pages like user profile, Home, etc.
                 </li>
               </ul> */}
-            </div>
           </div>
+          {/* </div> */}
         </a>
 
         <a href="https://bhrejskrc.ccbp.tech" className="link">
           <div data-aos="zoom-in-up" className="project-container">
             <h1 className="project-title"> Book Hub</h1>
-            <div className="project-flex">
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685447110/Login_page_1_duzxed.png"
-                alt="jobbyapp"
-                className="jobby-img"
-              />
-              {/* <ul className="project-list">
+            {/* <div className="project-flex"> */}
+            <img
+              src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685447110/Login_page_1_duzxed.png"
+              alt="jobbyapp"
+              className="jobby-img"
+            />
+            {/* <ul className="project-list">
                 <li>
                   Implemented responsive Goodreads Clone where users can log in
                   and see a list of books, bookshelves like all shelves (books
@@ -164,20 +164,20 @@ const Projects = () => {
                   users can access the pages like home, bookshelves, etc.
                 </li>
               </ul> */}
-            </div>
           </div>
+          {/* </div> */}
         </a>
 
         <a href="https://tskrjskrc.ccbp.tech" className="link">
           <div data-aos="zoom-in-up" className="project-container">
             <h1 className="project-title">Tasty Kitchens</h1>
-            <div className="project-flex">
-              <img
-                src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685447386/Login_Empty_g2l9zg.png"
-                alt="jobbyapp"
-                className="jobby-img"
-              />
-              {/* <ul className="project-list">
+            {/* <div className="project-flex"> */}
+            <img
+              src="https://res.cloudinary.com/dnmaskg3n/image/upload/v1685447386/Login_Empty_g2l9zg.png"
+              alt="jobbyapp"
+              className="jobby-img"
+            />
+            {/* <ul className="project-list">
                 <li>
                   Implemented a responsive Online Food Ordering System like
                   Swiggy/Zomato where users can see popular restaurants with
@@ -211,8 +211,8 @@ const Projects = () => {
                   details, etc.
                 </li>
               </ul> */}
-            </div>
           </div>
+          {/* </div> */}
         </a>
       </div>
       <Link className="minor-btn-container" to="/minor-projects">
