@@ -72,6 +72,7 @@
 .jobby-img:hover {
   transform: scale(1.2);
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .minor-btn-container {
   text-decoration: none;
@@ -97,6 +98,7 @@
 h3 {
   font-style: italic;
   font-weight: bolder;
+  /* animation: zoomInOut 2s infinite; */
 }
 p {
   font-style: italic;

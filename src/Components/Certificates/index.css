@@ -39,7 +39,7 @@
 @media screen and (min-width: 768px) {
   .certificate-box {
     width: 350px;
-    height: 400px;
+    height: 420px;
   }
 }
 @media screen and (min-width: 996px) {
@@ -54,4 +54,6 @@
 }
 .certificate-titile {
   text-align: center;
+  font-style: italic;
+  font-weight: bolder;
 }
