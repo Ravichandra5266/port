@@ -5,13 +5,13 @@
   }
 
   50% {
-    transform: scale(1);
-    color: black;
+    transform: scale(0.9);
+    color: #008b8b;
   }
 
   100% {
-    transform: scale(0.5);
-    color: #008b8b;
+    transform: scale(1);
+    color: black;
   }
 }
 .home-container {
