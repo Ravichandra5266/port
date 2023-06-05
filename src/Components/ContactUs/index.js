@@ -8,6 +8,9 @@ const ContactUs = () => (
   <div className="contact-container">
     <h1 className="contact-title">Contact Me </h1>
     <div className="contact-icons-container">
+      <a className="phone" href="tel:7993091099">
+        <BsFillPhoneFill className="contact-icons" />
+      </a>
       <a href="https://www.linkedin.com/in/ravichandrakadavakuti">
         <BsLinkedin className="contact-icons" />
       </a>
@@ -19,9 +22,6 @@ const ContactUs = () => (
       </a>
       <a href="mailto:krc263458@gmail.com">
         <SiGmail className="contact-icons" />
-      </a>
-      <a className="phone" href="tel:7993091099">
-        <BsFillPhoneFill className="contact-icons" />
       </a>
     </div>
   </div>

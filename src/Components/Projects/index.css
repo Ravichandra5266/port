@@ -117,11 +117,12 @@ span {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
+  margin: 5px;
 }
 @media screen and (min-width: 1200px) {
   .note {
-    width: 80%;
+    width: 50%;
   }
 }
