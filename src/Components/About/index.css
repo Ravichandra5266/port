@@ -1,13 +1,13 @@
 .ab-con {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: #f0fff0;
 
-  margin-bottom: auto;
+  /* margin-bottom: auto; */
 }
 
 .about-container {
@@ -18,8 +18,9 @@
   border: 1px solid;
   border-radius: 5px;
   padding: 10px;
-  margin: 5px;
-  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin-bottom: auto; */
 }
 .about-title {
   font-style: italic;

@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import './index.css'
 
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 
 import {GiHamburgerMenu} from 'react-icons/gi'
 
@@ -17,12 +17,17 @@ const Navbar = () => {
   const onclickHam = () => {
     setHam(!ham)
   }
+
+  const onclickScroll = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'})
+  }
+
   return (
     <nav className="nav-container">
       <div className="nav-flex ">
-        <NavLink to="/" className="link" activeClassName="active" exact>
+        <Link to="/" className="link" onClick={onclickScroll}>
           <h1 className="nav-logo">Portfolio</h1>
-        </NavLink>
+        </Link>
 
         {ham ? (
           <RxCrossCircled className="ham-icon" onClick={onclickHam} />
@@ -33,7 +38,13 @@ const Navbar = () => {
 
       {ham ? (
         <ul className="sm-nav-list">
-          <NavLink to="/" className="link" activeClassName="active" exact>
+          <NavLink
+            to="/"
+            className="link"
+            activeClassName="active"
+            exact
+            onClick={onclickScroll}
+          >
             <li className="nav-item">Home</li>
           </NavLink>
           <NavLink
@@ -41,6 +52,7 @@ const Navbar = () => {
             className="link"
             activeClassName="active"
             exact
+            onClick={onclickScroll}
           >
             <li className="nav-item">Projects</li>
           </NavLink>
@@ -49,6 +61,7 @@ const Navbar = () => {
             className="link"
             activeClassName="active"
             exact
+            onClick={onclickScroll}
           >
             <li className="nav-item">Certificates</li>
           </NavLink>
@@ -62,10 +75,22 @@ const Navbar = () => {
       )}
 
       <ul className="lg-nav-list">
-        <NavLink to="/" className="link" activeClassName="active" exact>
+        <NavLink
+          to="/"
+          className="link"
+          activeClassName="active"
+          exact
+          onClick={onclickScroll}
+        >
           <li className="nav-item">Home</li>
         </NavLink>
-        <NavLink to="/projects" className="link" activeClassName="active" exact>
+        <NavLink
+          to="/projects"
+          className="link"
+          activeClassName="active"
+          exact
+          onClick={onclickScroll}
+        >
           <li className="nav-item">Projects</li>
         </NavLink>
         <NavLink
@@ -73,6 +98,7 @@ const Navbar = () => {
           className="link"
           activeClassName="active"
           exact
+          onClick={onclickScroll}
         >
           <li className="nav-item">Certificates</li>
         </NavLink>

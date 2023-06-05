@@ -1,4 +1,4 @@
-import {BsLinkedin, BsWhatsapp, BsGithub} from 'react-icons/bs'
+import {BsLinkedin, BsWhatsapp, BsGithub, BsFillPhoneFill} from 'react-icons/bs'
 
 import {SiGmail} from 'react-icons/si'
 
@@ -19,6 +19,9 @@ const ContactUs = () => (
       </a>
       <a href="mailto:krc263458@gmail.com">
         <SiGmail className="contact-icons" />
+      </a>
+      <a className="phone" href="tel:7993091099">
+        <BsFillPhoneFill className="contact-icons" />
       </a>
     </div>
   </div>

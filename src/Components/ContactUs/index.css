@@ -61,3 +61,8 @@
   font-size: 55px;
   padding: 10px;
 }
+@media screen and (min-width: 480px) {
+  .phone {
+    display: none;
+  }
+}

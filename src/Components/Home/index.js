@@ -69,60 +69,60 @@ const Home = () => {
             </ul>
           </div>
           <div className="navigation-links-container">
-            <Link className="link-btn-container" to="/about">
+            <Link
+              className="link-btn-container"
+              to="/about"
+              onClick={onclickScroll}
+            >
               <IoIosNavigate className="navigate-icons" />
 
-              <button
-                type="button"
-                className="link-btn"
-                onClick={onclickScroll}
-              >
+              <button type="button" className="link-btn">
                 About Me
               </button>
             </Link>
 
-            <Link className="link-btn-container" to="/certificates">
+            <Link
+              className="link-btn-container"
+              to="/certificates"
+              onClick={onclickScroll}
+            >
               <IoIosNavigate className="navigate-icons" />
 
-              <button
-                type="button"
-                className="link-btn"
-                onClick={onclickScroll}
-              >
+              <button type="button" className="link-btn">
                 Certificates
               </button>
             </Link>
-            <Link className="link-btn-container" to="/experience">
+            <Link
+              className="link-btn-container"
+              to="/experience"
+              onClick={onclickScroll}
+            >
               <IoIosNavigate className="navigate-icons" />
 
-              <button
-                type="button"
-                className="link-btn"
-                onClick={onclickScroll}
-              >
+              <button type="button" className="link-btn">
                 Experience
               </button>
             </Link>
 
-            <Link className="link-btn-container" to="/projects">
+            <Link
+              className="link-btn-container"
+              to="/projects"
+              onClick={onclickScroll}
+            >
               <IoIosNavigate className="navigate-icons" />
-              <button
-                type="button"
-                className="link-btn"
-                onClick={onclickScroll}
-              >
+              <button type="button" className="link-btn">
                 Mini Projects
               </button>
             </Link>
 
-            <Link className="link-btn-container" to="/minor-projects">
+            <Link
+              className="link-btn-container"
+              to="/minor-projects"
+              onClick={onclickScroll}
+            >
               <IoIosNavigate className="navigate-icons" />
 
-              <button
-                type="button"
-                className="link-btn"
-                onClick={onclickScroll}
-              >
+              <button type="button" className="link-btn">
                 Minor Projects
               </button>
             </Link>
