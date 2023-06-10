@@ -10,6 +10,10 @@ import {Link} from 'react-router-dom'
 
 import Typed from 'typed.js'
 
+import Aos from 'aos'
+
+import 'aos/dist/aos.css'
+
 import Navbar from '../Navbar'
 
 import ContactUs from '../ContactUs'
@@ -34,6 +38,11 @@ const Home = () => {
   const onclickScroll = () => {
     window.scrollTo({top: 0, behavior: 'smooth'})
   }
+
+  useEffect(() => {
+    Aos.init()
+  })
+
   return (
     <div className="home-container">
       <Navbar />
@@ -47,7 +56,7 @@ const Home = () => {
           <span className="typed-title" ref={typedTextRef} />
         </div>
         <div className="content">
-          <div className="skills-container">
+          <div data-aos="zoom-in-up" className="skills-container">
             <h1 className="skills-title">Technical Skills</h1>
             <ul className="skill-list">
               <div className="skill-item-container">
@@ -68,7 +77,7 @@ const Home = () => {
               </div>
             </ul>
           </div>
-          <div className="navigation-links-container">
+          <div data-aos="zoom-in-up" className="navigation-links-container">
             <Link
               className="link-btn-container"
               to="/about"

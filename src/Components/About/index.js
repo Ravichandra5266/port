@@ -2,6 +2,12 @@ import {useRef, useEffect} from 'react'
 
 import Typed from 'typed.js'
 
+import {CgEditBlackPoint} from 'react-icons/cg'
+
+import Aos from 'aos'
+
+import 'aos/dist/aos.css'
+
 import './index.css'
 
 import Navbar from '../Navbar'
@@ -21,14 +27,20 @@ const About = () => {
       typed.destroy()
     }
   }, [])
+
+  useEffect(() => {
+    Aos.init()
+  })
+
   return (
     <div className="ab-con">
       <Navbar />
-      <h1 className="about-title">About Me</h1>
-      <span className="about-scroll-title" ref={typedTextRef} />
 
       <div className="about-container">
-        <div className="home-des-scroll">
+        <h1 className="about-title">About Me</h1>
+        <span className="about-scroll-title" ref={typedTextRef} />
+
+        <div data-aos="zoom-in-up" className="home-des-scroll">
           <li>
             Welcome to my portfolio! I am a passionate and dedicated frontend
             developer with a strong foundation in HTML, CSS, and JavaScript. I
@@ -73,6 +85,32 @@ const About = () => {
             please feel free to get in touch. Thank you for visiting my
             portfolio, and I look forward to hearing from you!
           </li>
+        </div>
+      </div>
+      <div data-aos="zoom-in-up" className="education-container">
+        <h1 className="education-title">Education</h1>
+        <div className="e-box">
+          <div className="flex">
+            <CgEditBlackPoint className="e-icons" />
+            <div className="e-c">
+              <h4 className="e-title">Graduation</h4>
+              <p>BHM(Bachelor Of Hotel Management)</p>
+            </div>
+          </div>
+          <div className="flex">
+            <CgEditBlackPoint className="e-icons" />
+            <div className="e-c">
+              <h4 className="e-title">Intermediate</h4>
+              <p>Sri Chaitanya College</p>
+            </div>
+          </div>
+          <div className="flex">
+            <CgEditBlackPoint className="e-icons" />
+            <div className="e-c">
+              <h4 className="e-title">High School</h4>
+              <p>Sri Chaitanya Techno School</p>
+            </div>
+          </div>
         </div>
       </div>
       <ContactUs />

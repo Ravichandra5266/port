@@ -1,5 +1,3 @@
-import experience from '../../Resume/Ravichandra kadavakuti[314].pdf'
-
 import './index.css'
 
 import Navbar from '../Navbar'
