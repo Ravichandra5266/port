@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/react-in-jsx-scope */
+
 import {useRef, useEffect} from 'react'
 
 import Typed from 'typed.js'
@@ -93,26 +96,37 @@ const About = () => {
           <div className="flex">
             <CgEditBlackPoint className="e-icons" />
             <div className="e-c">
-              <h4 className="e-title">Graduation</h4>
-              <p>BHM(Bachelor Of Hotel Management)</p>
+              <h3 className="e-title">Nxtwave</h3>
+              <p>Fellow at NxtWave’s CCBP 4.0 Intensive</p>
             </div>
           </div>
           <div className="flex">
             <CgEditBlackPoint className="e-icons" />
             <div className="e-c">
-              <h4 className="e-title">Intermediate</h4>
-              <p>Sri Chaitanya College</p>
+              <h3 className="e-title">
+          
+                Graduation
+              </h3>
+              <p>BHM(Bachelor Of Hotel Management) At Annamali University</p>
             </div>
           </div>
           <div className="flex">
             <CgEditBlackPoint className="e-icons" />
             <div className="e-c">
-              <h4 className="e-title">High School</h4>
+              <h3 className="e-title">Intermediate </h3>
+              <p>MPC At Sri Chaitanya College</p>
+            </div>
+          </div>
+          <div className="flex">
+            <CgEditBlackPoint className="e-icons" />
+            <div className="e-c">
+              <h3 className="e-title">High School</h3>
               <p>Sri Chaitanya Techno School</p>
             </div>
           </div>
         </div>
       </div>
+
       <ContactUs />
     </div>
   )
