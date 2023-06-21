@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import {SiHtml5, SiCss3, SiSemanticuireact} from 'react-icons/si'
 
 import {TbBrandJavascript} from 'react-icons/tb'
@@ -92,17 +93,6 @@ const Home = () => {
 
             <Link
               className="link-btn-container"
-              to="/certificates"
-              onClick={onclickScroll}
-            >
-              <IoIosNavigate className="navigate-icons" />
-
-              <button type="button" className="link-btn">
-                Certificates
-              </button>
-            </Link>
-            <Link
-              className="link-btn-container"
               to="/experience"
               onClick={onclickScroll}
             >
@@ -112,6 +102,19 @@ const Home = () => {
                 Experience
               </button>
             </Link>
+
+            <Link
+              className="link-btn-container"
+              to="/certificates"
+              onClick={onclickScroll}
+            >
+              <IoIosNavigate className="navigate-icons" />
+
+              <button type="button" className="link-btn">
+                Certificates
+              </button>
+            </Link>
+           
 
             <Link
               className="link-btn-container"
