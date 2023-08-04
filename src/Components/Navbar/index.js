@@ -9,7 +9,7 @@ import {RxCrossCircled} from 'react-icons/rx'
 
 import {useState} from 'react'
 
-import resumePDF from '../../Resume/Ravichandar Kadavakuti.pdf'
+import resumePDF from '../../Ravichandra(IT).pdf'
 
 const Navbar = () => {
   const [ham, setHam] = useState(false)
